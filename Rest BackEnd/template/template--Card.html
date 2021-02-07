@@ -1,0 +1,27 @@
+<div class="col-lg-4 col-md-4 col-xl-4 mb-4">
+  <div class="card">
+    <img
+      class="img-fluid text-center"
+      style="width: 100vw; margin: auto; display: block; height: 35vh"
+      src="{%COUNTRY_FLAG%}"
+      alt="{%COUNTRY_NAME%}"
+    />
+    <div class="card-body">
+      <h2 style="color: red" class="card-title">{%COUNTRY_NAME%}</h2>
+      <ul class="list-group mb-3">
+        <li class="list-group-item">Capital:- {%COUNTRY_CAPITAL%}</li>
+        <li class="list-group-item">Region:- {%COUNTRY_REGION%}</li>
+        <li class="list-group-item">Subregion:- {%COUNTRY_SUB_REGION%}</li>
+        <li class="list-group-item">Population:- {%COUNTRY_POPULATION%}</li>
+        <li class="list-group-item">Area:- {%COUNTRY_AREA%}</li>
+      </ul>
+
+      <a
+        class="btn btn-block btn-outline-success btn-lg"
+        href="/country?id={%COUNTRY_ID%}&name={%COUNTRY_NAME%}"
+      >
+        More-Details
+      </a>
+    </div>
+  </div>
+</div>

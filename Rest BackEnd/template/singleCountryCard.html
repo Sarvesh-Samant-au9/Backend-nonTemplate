@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{%COUNTRY_NAME%}</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    strong {
+      color: red;
+      display: inline-block;
+      font-weight: 200;
+      font-family: cursive;
+      transition: all 0.5s ease-in-out;
+    }
+    strong:hover {
+      background-color: red;
+      color: white;
+      transform: skewY(-3deg);
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <img
+        class="img-fluid"
+        style="width: 90vw; margin: auto; display: block; height: 80vh"
+        src="{%COUNTRY_FLAG%}"
+        alt="{%COUNTRY_NAME%}"
+      />
+      <h1 style="color: red; text-align: center">{%COUNTRY_NAME%}</h1>
+
+      <h5 class="list-group-item">
+        Capital:
+        <strong> {%COUNTRY_CAPITAL%} </strong>
+      </h5>
+
+      <h5 class="list-group-item">
+        Region: <strong> {%COUNTRY_REGION%} </strong>
+      </h5>
+
+      <h5 class="list-group-item">
+        Subregion:
+        <strong> {%COUNTRY_SUB_REGION%} </strong>
+      </h5>
+
+      <h5 class="list-group-item">
+        Population:
+        <strong> {%COUNTRY_POPULATION%} </strong>
+      </h5>
+
+      <h5 class="list-group-item">
+        Area:
+        <strong> {%COUNTRY_AREA%} </strong>
+      </h5>
+    </div>
+  </body>
+</html>
