@@ -1,0 +1,32 @@
+2 types of package 
+
+1) dependency
+npm install slugify
+slugify is used to
+npm install nodemon
+
+
+
+2) dev dependency
+npm install nodemon --save-dev
+
+npm install nodemon --global => install it globally
+
+1.10.12
+12 -> minor bug
+10 => minor change backward compatiable
+
+"scripts":{
+  "start": "nodemon index.js"
+}
+
+npm run start instead of nodemon index.js
+
+const slugify = require('slugify')
+slug is last part of url
+124.2.2/8008/product/
+.prettierrrc
+Some Settings
+{
+  "singleQuote": true
+}
